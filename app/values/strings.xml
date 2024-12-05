@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CozyCorner</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register_question">Еще не зарегистрированы?</string>
+    <string name="register">Регистрация</string>
+    <string name="login">Войти</string>
+    <string name="register2">Зарегистрироваться</string>
+    <string name="chats">chats</string>
+    <string name="lent">Объявления</string>
+    <string name="user_info">User info</string>
+    <string name="profile_image">Profile image</string>
+    <string name="arrow">arrow</string>
+    <string name="save">Сохранить изменения</string>
+    <string name="current_password">Пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="add_post">Новое объявление</string>
+    <string name="my_posts">Мои объявления</string>
+    <string name="post_unvisible">Скрыть объявление из ленты</string>
+    <string name="post_visible">Показать объявление в ленте</string>
+    <string name="post_edit">Редактировать</string>
+    <string name="see_bookings">Просмотреть бронирования</string>
+    <string name="delete_post">Удалить объявление</string>
+    <string name="new_post">Новое объявление</string>
+    <string name="metres">м&#178;</string>
+    <string-array name="profile_list">
+        <item>Личные данные</item>
+        <item>Мои бронирования</item>
+        <item>Мои объявления</item>
+        <item>Выйти из профиля</item>
+        <item>Удалить профиль</item>
+    </string-array>
+    <string-array name="acc_types">
+        <item>комната</item>
+        <item>студия</item>
+        <item>1-комнатная квартира</item>
+        <item>2-комнатная квартира</item>
+        <item>3-комнатная квартира</item>
+        <item>4-комнатная квартира</item>
+        <item>5-комнатная квартира</item>
+        <item>6-комнатная квартира</item>
+        <item>7-комнатная квартира</item>
+        <item>8-комнатная квартира</item>
+        <item>9-комнатная квартира</item>
+        <item>10 и более комнатная квартира</item>
+        <item>загородный/частный дом</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_post_info">MyPostInfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

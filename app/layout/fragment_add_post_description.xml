@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home"
+    tools:context=".fragments.AddPostDescriptionFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_chat_input"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Описание"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginVertical="10dp">
+
+                <EditText
+                    android:id="@+id/new_post_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Опишите жилищные условия"
+                    android:inputType="textAutoCorrect|textMultiLine|textCapSentences"
+                    android:maxLength="2000"
+                    android:minHeight="48dp"
+                    android:minLines="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/cardview_dark_background" />
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_chat_input"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Требования к арендатору"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginVertical="10dp">
+
+                <EditText
+                    android:id="@+id/new_post_requirements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="Опишите требования к арендатору"
+                    android:inputType="textAutoCorrect|textMultiLine|textCapSentences"
+                    android:maxLength="2000"
+                    android:minHeight="48dp"
+                    android:minLines="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/cardview_dark_background" />
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cozycorner">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CozyCorner"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PersonalChatActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ReviewActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.MyPostBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomePostInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SeeReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EditPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyPostInfoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_my_post_info"
+            android:theme="@style/Theme.CozyCorner.NoActionBar" />
+        <activity
+            android:name=".activities.AddPostActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.MyPostsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PersonalDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PersonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

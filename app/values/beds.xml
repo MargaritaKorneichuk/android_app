@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="beds">
+        <item quantity="one">%d кровать</item>
+        <item quantity="few">%d кровати</item>
+        <item quantity="many">%d кроватей</item>
+        <item quantity="other">%d bed</item>
+    </plurals>
+</resources>
